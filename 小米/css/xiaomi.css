@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+body{
+	/* background-color: yellow; */
+}
+.w{
+	width:1226px;
+	height:447px;
+	margin: 0 auto;
+}
+.link-block{
+	position: relative;
+	border-bottom: 55px solid #7bb3e4;
+}
+.link-block a img{
+	width:1226px;
+	height:447px;
+}
+.link-block span{
+	position: absolute;
+	color:white;
+	top: 462px;
+	left: 555px;
+	font-size: 28px;
+	font-weight: bolder;
+}
+.content ul li{
+	float:left;
+}
+.content ul li:nth-child(1){
+	margin-right: 12px;
+}
+.content ul li img{
+	width:607px;
+	height:358px;
+}
+.content ul li .sole{
+	position: relative;
+	width:607px;
+	height:135px;
+}
+.content ul li .sole span{
+	position: absolute;
+	top:40px;
+	left:50px;
+}
+.content ul li .sole .sp{
+	position: absolute;
+	left:470px;
+	top:60px;
+	color:orange;
+}
+.content ul li .sole .sp del{
+	font-size: 13px;
+	color:rgba(51,51,51,.6);
+}
+.content ul li .sole span strong{
+	font-size: 28px;
+	font-weight: normal;
+}

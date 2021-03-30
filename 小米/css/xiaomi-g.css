@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+.w{
+	width:1226px;
+	margin: auto;
+}
+.home-right{
+	position: fixed;
+	right:50px;
+	bottom: 120px;
+	width: 27px;
+	height: 200px;
+}
+.home-right a{
+	font-family: 'icomoon';
+	font-size: 18px;
+	line-height: 40px; 
+	color:#B0B0B0;
+	margin-left: 5px;
+}
+.home-right a:hover{
+	font-size: 20px;
+	color:orange;
+}
+.home-tool .left{
+	width:130px;
+	height:250px;
+	margin-left: 455px;
+	background-color: red;
+}
+.header{
+	height:40px;
+	background-color: #333;
+}
+.header a{
+	margin-right: 20px;
+	color:#b0b0b0;
+	font-size: 12px;
+	line-height: 40px;
+	text-decoration: none;
+}
+.nav-left ul li{
+	float: left;
+}
+.nav-right ul li{
+	float: right;
+}
+.nav-right a{
+	font-family: 'icomoon';
+}
+.nav-right .shop:hover{
+	background-color: white;
+}
+.nav-right .shop a:hover{
+	color:orange; 
+}
+.header a:hover{
+	color:white;
+}
+.header-2{
+	height: 100px;
+}
+.header-2 .logo{
+	float:left;
+	width: 55px;
+	height: 55px;
+	margin-top: 22px;
+	background: url(../img-xiaomi/logo.gif);
+}
+.header-2 .nav-center{
+	float: left;
+	width:730px;
+	height:100px;
+	margin-left: 127px;
+}
+.header-2 .nav-center ul li{
+	float:left;
+	font-size: 16px;
+	line-height: 100px;
+	margin-right: 20px;
+}
+.header-2 .nav-center ul li a{
+	color:#333;
+	text-decoration: none;
+}
+.header-2 .nav-center ul li a:hover{
+	color:orange;
+}
+.header-2 .search input{
+	width: 245px;
+	height: 50px;
+	margin-top:25px;
+	float:right;
+	border: 1px solid #b0b0b0;
+}
+.header-2 .search button{
+	float:right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color:#b0b0b0;
+	width:50px;
+	height: 50px;
+	margin-top:25px;
+	background-color: white;
+	border:none;
+	border: 1px solid #b0b0b0;
+}
